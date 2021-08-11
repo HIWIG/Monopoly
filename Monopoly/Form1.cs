@@ -143,18 +143,11 @@ namespace Monopoly
 
         private void showCard()
         {
-            if (fields.ElementAt(infoIndex) is CityField)
-            {
+                //var cardInfo = new CardInfo(2, "Saloniki", Color.Yellow, 120);
+                var cardInfo = new CardInfo(fields.ElementAt(infoIndex-1));
 
-            }
-            else if (fields.ElementAt(infoIndex) is RandomField)
-            {
+                cardInfo.Show();
 
-            }
-            else if (fields.ElementAt(infoIndex) is PaymentField)
-            {
-
-            }
         }
 
         private void button41_Click(object sender, EventArgs e)
@@ -164,52 +157,62 @@ namespace Monopoly
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            infoIndex = 1;
+            showCard();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            infoIndex = 2;
             showCard();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            infoIndex = 3;
+            showCard();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            infoIndex = 4;
+            showCard();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            infoIndex = 5;
+            showCard();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            infoIndex = 6;
+            showCard();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            infoIndex = 7;
+            showCard();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-
+            infoIndex = 8;
+            showCard();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            infoIndex = 9;
+            showCard();
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-
+            infoIndex = 10;
+            showCard();
         }
 
         //static void InitializeTeasures(ref List<Field> treasureFields)

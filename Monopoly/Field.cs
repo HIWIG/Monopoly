@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Monopoly
 {
-    class Field
+    public class Field
     {
 
 
