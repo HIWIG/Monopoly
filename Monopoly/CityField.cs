@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +22,7 @@ namespace Monopoly
         //public bool Active { get; set; }
 
 
-        public CityField(int id, string name, int price, int country, int payment, int paymentOneHouse, int paymentTwoHouse, int paymentThreeHouse, int paymentFourHouse, int paymentHotel, Player owner = null) : base(id, name)
+        public CityField(int id, string name, Color color, int price, int country, int payment, int paymentOneHouse, int paymentTwoHouse, int paymentThreeHouse, int paymentFourHouse, int paymentHotel, Player owner = null) : base(id, name, color)
         {
             Price = price;
             Country = country;
