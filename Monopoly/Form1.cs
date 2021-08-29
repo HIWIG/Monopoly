@@ -31,6 +31,7 @@ namespace Monopoly
         private void initializeMap(object sender, EventArgs e)
         {
             List<Label> labels = new List<Label>();
+            List<Label> playerPosition = new List<Label>();
 
             labels.Add(label1);
             labels.Add(label2);
@@ -43,6 +44,35 @@ namespace Monopoly
             labels.Add(label9);
             labels.Add(label10);
             labels.Add(label11);
+            labels.Add(label12);
+            labels.Add(label13);
+            labels.Add(label14);
+            labels.Add(label15);
+            labels.Add(label16);
+            labels.Add(label17);
+            labels.Add(label18);
+            labels.Add(label19);
+            labels.Add(label20);
+            labels.Add(label21);
+            labels.Add(label22);
+            labels.Add(label23);
+            labels.Add(label24);
+            labels.Add(label25);
+            labels.Add(label26);
+            labels.Add(label27);
+            labels.Add(label28);
+            labels.Add(label29);
+            labels.Add(label30);
+            labels.Add(label31);
+            labels.Add(label32);
+            labels.Add(label33);
+            labels.Add(label34);
+            labels.Add(label35);
+            labels.Add(label36);
+            labels.Add(label37);
+            labels.Add(label38);
+            labels.Add(label39);
+            labels.Add(label40);
             labels.Add(label1_2);
             labels.Add(label2_2);
             labels.Add(label3_2);
@@ -54,6 +84,35 @@ namespace Monopoly
             labels.Add(label9_2);
             labels.Add(label10_2);
             labels.Add(label11_2);
+            labels.Add(label12_2);
+            labels.Add(label13_2);
+            labels.Add(label14_2);
+            labels.Add(label15_2);
+            labels.Add(label16_2);
+            labels.Add(label17_2);
+            labels.Add(label18_2);
+            labels.Add(label19_2);
+            labels.Add(label20_2);
+            labels.Add(label21_2);
+            labels.Add(label22_2);
+            labels.Add(label23_2);
+            labels.Add(label24_2);
+            labels.Add(label25_2);
+            labels.Add(label26_2);
+            labels.Add(label27_2);
+            labels.Add(label28_2);
+            labels.Add(label29_2);
+            labels.Add(label30_2);
+            labels.Add(label31_2);
+            labels.Add(label32_2);
+            labels.Add(label33_2);
+            labels.Add(label34_2);
+            labels.Add(label35_2);
+            labels.Add(label36_2);
+            labels.Add(label37_2);
+            labels.Add(label38_2);
+            labels.Add(label39_2);
+            labels.Add(label40_2);
             labels.Add(label1_3);
             labels.Add(label2_3);
             labels.Add(label3_3);
@@ -65,6 +124,216 @@ namespace Monopoly
             labels.Add(label9_3);
             labels.Add(label10_3);
             labels.Add(label11_3);
+            labels.Add(label12_3);
+            labels.Add(label13_3);
+            labels.Add(label14_3);
+            labels.Add(label15_3);
+            labels.Add(label16_3);
+            labels.Add(label17_3);
+            labels.Add(label18_3);
+            labels.Add(label19_3);
+            labels.Add(label20_3);
+            labels.Add(label21_3);
+            labels.Add(label22_3);
+            labels.Add(label23_3);
+            labels.Add(label24_3);
+            labels.Add(label25_3);
+            labels.Add(label26_3);
+            labels.Add(label27_3);
+            labels.Add(label28_3);
+            labels.Add(label29_3);
+            labels.Add(label30_3);
+            labels.Add(label31_3);
+            labels.Add(label32_3);
+            labels.Add(label33_3);
+            labels.Add(label34_3);
+            labels.Add(label35_3);
+            labels.Add(label36_3);
+            labels.Add(label37_3);
+            labels.Add(label38_3);
+            labels.Add(label39_3);
+            labels.Add(label40_3);
+
+            playerPosition.Add(plPos1_1);
+            playerPosition.Add(plPos2_1);
+            playerPosition.Add(plPos3_1);
+            playerPosition.Add(plPos4_1);
+            playerPosition.Add(plPos5_1);
+            playerPosition.Add(plPos6_1);
+            playerPosition.Add(plPos7_1);
+            playerPosition.Add(plPos8_1);
+            playerPosition.Add(plPos9_1);
+            playerPosition.Add(plPos10_1);
+            playerPosition.Add(plPos11_1);
+            playerPosition.Add(plPos12_1);
+            playerPosition.Add(plPos13_1);
+            playerPosition.Add(plPos14_1);
+            playerPosition.Add(plPos15_1);
+            playerPosition.Add(plPos16_1);
+            playerPosition.Add(plPos17_1);
+            playerPosition.Add(plPos18_1);
+            playerPosition.Add(plPos19_1);
+            playerPosition.Add(plPos20_1);
+            playerPosition.Add(plPos21_1);
+            playerPosition.Add(plPos22_1);
+            playerPosition.Add(plPos23_1);
+            playerPosition.Add(plPos24_1);
+            playerPosition.Add(plPos25_1);
+            playerPosition.Add(plPos26_1);
+            playerPosition.Add(plPos27_1);
+            playerPosition.Add(plPos28_1);
+            playerPosition.Add(plPos29_1);
+            playerPosition.Add(plPos30_1);
+            playerPosition.Add(plPos31_1);
+            playerPosition.Add(plPos32_1);
+            playerPosition.Add(plPos33_1);
+            playerPosition.Add(plPos34_1);
+            playerPosition.Add(plPos35_1);
+            playerPosition.Add(plPos36_1);
+            playerPosition.Add(plPos37_1);
+            playerPosition.Add(plPos38_1);
+            playerPosition.Add(plPos39_1);
+            playerPosition.Add(plPos40_1);
+
+            playerPosition.Add(plPos1_2);
+            playerPosition.Add(plPos2_2);
+            playerPosition.Add(plPos3_2);
+            playerPosition.Add(plPos4_2);
+            playerPosition.Add(plPos5_2);
+            playerPosition.Add(plPos6_2);
+            playerPosition.Add(plPos7_2);
+            playerPosition.Add(plPos8_2);
+            playerPosition.Add(plPos9_2);
+            playerPosition.Add(plPos10_2);
+            playerPosition.Add(plPos11_2);
+            playerPosition.Add(plPos12_2);
+            playerPosition.Add(plPos13_2);
+            playerPosition.Add(plPos14_2);
+            playerPosition.Add(plPos15_2);
+            playerPosition.Add(plPos16_2);
+            playerPosition.Add(plPos17_2);
+            playerPosition.Add(plPos18_2);
+            playerPosition.Add(plPos19_2);
+            playerPosition.Add(plPos20_2);
+            playerPosition.Add(plPos21_2);
+            playerPosition.Add(plPos22_2);
+            playerPosition.Add(plPos23_2);
+            playerPosition.Add(plPos24_2);
+            playerPosition.Add(plPos25_2);
+            playerPosition.Add(plPos26_2);
+            playerPosition.Add(plPos27_2);
+            playerPosition.Add(plPos28_2);
+            playerPosition.Add(plPos29_2);
+            playerPosition.Add(plPos30_2);
+            playerPosition.Add(plPos31_2);
+            playerPosition.Add(plPos32_2);
+            playerPosition.Add(plPos33_2);
+            playerPosition.Add(plPos34_2);
+            playerPosition.Add(plPos35_2);
+            playerPosition.Add(plPos36_2);
+            playerPosition.Add(plPos37_2);
+            playerPosition.Add(plPos38_2);
+            playerPosition.Add(plPos39_2);
+            playerPosition.Add(plPos40_2);
+
+            playerPosition.Add(plPos1_3);
+            playerPosition.Add(plPos2_3);
+            playerPosition.Add(plPos3_3);
+            playerPosition.Add(plPos4_3);
+            playerPosition.Add(plPos5_3);
+            playerPosition.Add(plPos6_3);
+            playerPosition.Add(plPos7_3);
+            playerPosition.Add(plPos8_3);
+            playerPosition.Add(plPos9_3);
+            playerPosition.Add(plPos10_3);
+            playerPosition.Add(plPos11_3);
+            playerPosition.Add(plPos12_3);
+            playerPosition.Add(plPos13_3);
+            playerPosition.Add(plPos14_3);
+            playerPosition.Add(plPos15_3);
+            playerPosition.Add(plPos16_3);
+            playerPosition.Add(plPos17_3);
+            playerPosition.Add(plPos18_3);
+            playerPosition.Add(plPos19_3);
+            playerPosition.Add(plPos20_3);
+            playerPosition.Add(plPos21_3);
+            playerPosition.Add(plPos22_3);
+            playerPosition.Add(plPos23_3);
+            playerPosition.Add(plPos24_3);
+            playerPosition.Add(plPos25_3);
+            playerPosition.Add(plPos26_3);
+            playerPosition.Add(plPos27_3);
+            playerPosition.Add(plPos28_3);
+            playerPosition.Add(plPos29_3);
+            playerPosition.Add(plPos30_3);
+            playerPosition.Add(plPos31_3);
+            playerPosition.Add(plPos32_3);
+            playerPosition.Add(plPos33_3);
+            playerPosition.Add(plPos34_3);
+            playerPosition.Add(plPos35_3);
+            playerPosition.Add(plPos36_3);
+            playerPosition.Add(plPos37_3);
+            playerPosition.Add(plPos38_3);
+            playerPosition.Add(plPos39_3);
+            playerPosition.Add(plPos40_3);
+
+            playerPosition.Add(plPos1_4);
+            playerPosition.Add(plPos2_4);
+            playerPosition.Add(plPos3_4);
+            playerPosition.Add(plPos4_4);
+            playerPosition.Add(plPos5_4);
+            playerPosition.Add(plPos6_4);
+            playerPosition.Add(plPos7_4);
+            playerPosition.Add(plPos8_4);
+            playerPosition.Add(plPos9_4);
+            playerPosition.Add(plPos10_4);
+            playerPosition.Add(plPos11_4);
+            playerPosition.Add(plPos12_4);
+            playerPosition.Add(plPos13_4);
+            playerPosition.Add(plPos14_4);
+            playerPosition.Add(plPos15_4);
+            playerPosition.Add(plPos16_4);
+            playerPosition.Add(plPos17_4);
+            playerPosition.Add(plPos18_4);
+            playerPosition.Add(plPos19_4);
+            playerPosition.Add(plPos20_4);
+            playerPosition.Add(plPos21_4);
+            playerPosition.Add(plPos22_4);
+            playerPosition.Add(plPos23_4);
+            playerPosition.Add(plPos24_4);
+            playerPosition.Add(plPos25_4);
+            playerPosition.Add(plPos26_4);
+            playerPosition.Add(plPos27_4);
+            playerPosition.Add(plPos28_4);
+            playerPosition.Add(plPos29_4);
+            playerPosition.Add(plPos30_4);
+            playerPosition.Add(plPos31_4);
+            playerPosition.Add(plPos32_4);
+            playerPosition.Add(plPos33_4);
+            playerPosition.Add(plPos34_4);
+            playerPosition.Add(plPos35_4);
+            playerPosition.Add(plPos36_4);
+            playerPosition.Add(plPos37_4);
+            playerPosition.Add(plPos38_4);
+            playerPosition.Add(plPos39_4);
+            playerPosition.Add(plPos40_4);
+
+
+            //todo: to delete - testing look of player's position
+            //for (int i = 0; i < playerPosition.Count/4; i++)
+            //{
+            //    playerPosition.ElementAt(i).BackColor=Color.Yellow;
+            //    playerPosition.ElementAt(i+11).BackColor=Color.Blue;
+            //    playerPosition.ElementAt(i+22).BackColor=Color.Green;
+            //    playerPosition.ElementAt(i+33).BackColor=Color.Red;
+            //}
+
+            //playerPosition.ElementAt(5).BackColor = Color.Yellow;
+            //playerPosition.ElementAt(1 + 11).BackColor = Color.Red;
+            //playerPosition.ElementAt(9 + 22).BackColor = Color.Green;
+            //playerPosition.ElementAt(10 + 33).BackColor = Color.Blue;
+
+
 
             for (int i = 0; i < labels.Count / 3; i++)
             {
@@ -111,30 +380,34 @@ namespace Monopoly
             fields.Add(new Field(11, "Więzienie", Color.Transparent));
             fields.Add(new CityField(12, "Barcelona", Color.DodgerBlue, 280, 3, 20, 100, 300, 900, 1250, 1500));
             //fields.Add(TODO: elektrownia id 13));
+            fields.Add(new CityField(13, "Elektrownia", Color.Transparent, 300, 9, 20, 100, 300, 900, 1250, 1500));
+
             fields.Add(new CityField(14, "Sewilla", Color.DodgerBlue, 280, 3, 20, 100, 300, 900, 1250, 1500));
             fields.Add(new CityField(15, "Madryt", Color.DodgerBlue, 320, 3, 25, 120, 360, 100, 1400, 1800));
-            //fields.Add(new CityField(16, "Koleje Zachodnie", 400, 10));
-            fields.Add(new CityField(17, "Liverpool", Color.OrangeRed, 360, 4, 30, 140, 400, 1100, 1500, 1900));
-            //fields.Add(new TreasureField(18));
-            fields.Add(new CityField(19, "Glasgow", Color.OrangeRed, 360, 4, 30, 140, 400, 1100, 1500, 1900));
-            fields.Add(new CityField(20, "Londyn", Color.OrangeRed, 400, 4, 35, 160, 440, 1200, 1600, 2000));
+            fields.Add(new RandomField(19, "Koleje Zachodnie", Color.Transparent));
+            fields.Add(new CityField(17, "Liverpool", Color.Orange, 360, 4, 30, 140, 400, 1100, 1500, 1900));
+            fields.Add(new RandomField(18, "?", Color.Transparent));
+            fields.Add(new CityField(19, "Glasgow", Color.Orange, 360, 4, 30, 140, 400, 1100, 1500, 1900));
+            fields.Add(new CityField(20, "Londyn", Color.Orange, 400, 4, 35, 160, 440, 1200, 1600, 2000));
             fields.Add(new Field(21, "Darmowy parking", Color.Transparent));
             fields.Add(new CityField(22, "Rotterdam", Color.Green, 440, 5, 35, 180, 500, 1400, 1750, 2100));
-            //fields.Add(new TreasureField(23));
+            fields.Add(new RandomField(23, "?", Color.Transparent));
             fields.Add(new CityField(24, "Bruksela", Color.Green, 440, 5, 35, 180, 500, 1400, 1750, 2100));
             fields.Add(new CityField(25, "Amsterdam", Color.Green, 480, 5, 40, 200, 600, 1500, 1850, 2200));
-            //fields.Add(new CityField(26, "Koleje Północne", 400, 10));
+            fields.Add(new RandomField(26, "Koleje Północne", Color.Transparent));
             fields.Add(new CityField(27, "Malmo", Color.Purple, 520, 6, 15, 220, 660, 1600, 1950, 2300));
             fields.Add(new CityField(28, "Goteborg", Color.Purple, 520, 6, 15, 220, 660, 1600, 1950, 2300));
             //fields.Add(TODO: wodociągi id 29));
+            fields.Add(new CityField(29, "Wodociągi", Color.Transparent, 300, 9, 20, 100, 300, 900, 1250, 1500));
+
             fields.Add(new CityField(30, "Sztokholm", Color.Purple, 560, 6, 50, 240, 720, 1700, 2050, 2400));
             fields.Add(new Field(31, "Idziesz do więzienia", Color.Transparent));
             fields.Add(new CityField(32, "Frankfurt", Color.SaddleBrown, 600, 7, 55, 260, 780, 1900, 2200, 2550));
             fields.Add(new CityField(33, "Kolonia", Color.SaddleBrown, 600, 7, 55, 260, 780, 1900, 2200, 2550));
-            //fields.Add(new TreasureField(34));
+            fields.Add(new RandomField(34, "?", Color.Transparent));
             fields.Add(new CityField(35, "Bonn", Color.SaddleBrown, 640, 7, 60, 300, 900, 2000, 2400, 2800));
-            //fields.Add(new CityField(36, "Koleje Wschodnie", 400, 10));
-            //fields.Add(new TreasureField(37));
+            fields.Add(new RandomField(36, "Koleje Wschodnie", Color.Transparent));
+            fields.Add(new RandomField(37, "?", Color.Transparent));
             fields.Add(new CityField(38, "Insbruck", Color.Black, 700, 8, 70, 350, 1000, 2200, 2600, 3000));
             fields.Add(new PaymentField(39, "Podatek od wzbogacenia", Color.Transparent, 200));
             fields.Add(new CityField(40, "Wiedeń", Color.Black, 800, 8, 100, 400, 1200, 2800, 3400, 4000));
@@ -214,6 +487,192 @@ namespace Monopoly
             infoIndex = 10;
             showCard();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            infoIndex = 11;
+            showCard();
+        }
+        private void button12_Click(object sender, EventArgs e)
+        {
+            infoIndex = 12;
+            showCard();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            infoIndex = 13;
+            showCard();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            infoIndex = 14;
+            showCard();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            infoIndex = 15;
+            showCard();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            infoIndex = 16;
+            showCard();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            infoIndex = 17;
+            showCard();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            infoIndex = 18;
+            showCard();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            infoIndex = 19;
+            showCard();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            infoIndex = 20;
+            showCard();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            infoIndex = 21;
+            showCard();
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            infoIndex = 22;
+            showCard();
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            infoIndex = 23;
+            showCard();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            infoIndex = 24;
+            showCard();
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            infoIndex = 25;
+            showCard();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            infoIndex = 26;
+            showCard();
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            infoIndex = 27;
+            showCard();
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            infoIndex = 28;
+            showCard();
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            infoIndex = 39;
+            showCard();
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            infoIndex = 30;
+            showCard();
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            infoIndex = 31;
+            showCard();
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            infoIndex = 32;
+            showCard();
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            infoIndex = 33;
+            showCard();
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            infoIndex = 34;
+            showCard();
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            infoIndex = 35;
+            showCard();
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            infoIndex = 36;
+            showCard();
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            infoIndex = 37;
+            showCard();
+        }
+
+        private void button38_Click(object sender, EventArgs e)
+        {
+            infoIndex = 38;
+            showCard();
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+            infoIndex = 39;
+            showCard();
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            infoIndex = 40;
+            showCard();
+        }
+
+
+
+
+
+
+
 
         //static void InitializeTeasures(ref List<Field> treasureFields)
         //{
