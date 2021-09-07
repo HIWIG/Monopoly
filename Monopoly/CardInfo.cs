@@ -17,7 +17,7 @@ namespace Monopoly
         private List<Field> fields;
         private List<Player> players;
         public int Index { get; set; }
-        public CardInfo(Field field, int currentPlayer, List<Field>fields, List<Player>players, int index)
+        public CardInfo(Field field, int currentPlayer, List<Field> fields, List<Player> players, int index)
         {
             InitializeComponent();
             button1.Visible = false;
@@ -27,6 +27,7 @@ namespace Monopoly
             CurrentPlayer = currentPlayer;
             this.fields = fields;
             this.players = players;
+            Index = index;
             if (field is CityField)
             {
                 var x = (CityField)field;
@@ -44,11 +45,11 @@ namespace Monopoly
                     label10.Text = "Właściciel: " + x.Owner.Name;
                 else
                     label10.Text = "Właściciel: Brak";
-                if (x.Owner==players.ElementAt(CurrentPlayer-1))
+                if (x.Owner == players.ElementAt(CurrentPlayer - 1))
                 {
                     button1.Visible = true;
                     button2.Visible = true;
-                    
+
                 }
 
             }
@@ -72,8 +73,22 @@ namespace Monopoly
         {
             var x = (CityField)fields.ElementAt(Index - 1);
             x.Owner = null;
-            players.ElementAt(CurrentPlayer - 1).Money += x.Payment;
+            players.ElementAt(CurrentPlayer - 1).Money += x.Price;
+            button1.Enabled = false;
+            button2.Enabled = false;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var x = (CityField)fields.ElementAt(Index - 1);
+            if (x.AmountOfHouses < 5)
+                x.AmountOfHouses += 1;
+            players.ElementAt(CurrentPlayer - 1).Money -= 100;
+            button2.Enabled = false;
+        }
+
+
+
 
 
 
