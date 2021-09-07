@@ -18,6 +18,9 @@ namespace Monopoly
         public int PaymentThreeHouse { get; set; }
         public int PaymentFourHouse { get; set; }
         public int PaymentHotel { get; set; }
+        public int AmountOfHouses { get; set; }
+        //0-none, 5-hotel
+        
         //todo: 
         //public bool Active { get; set; }
 
@@ -33,6 +36,7 @@ namespace Monopoly
             PaymentThreeHouse = paymentThreeHouse;
             PaymentFourHouse = paymentFourHouse;
             PaymentHotel = paymentHotel;
+            AmountOfHouses = 0;
         }
 
     }

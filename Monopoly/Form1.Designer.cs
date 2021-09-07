@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button41 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel20 = new System.Windows.Forms.Panel();
+            this.house20 = new System.Windows.Forms.Label();
             this.button20 = new System.Windows.Forms.Button();
             this.plPos20_4 = new System.Windows.Forms.Label();
             this.plPos20_3 = new System.Windows.Forms.Label();
@@ -41,6 +41,7 @@
             this.label20_2 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
+            this.house19 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
             this.plPos19_4 = new System.Windows.Forms.Label();
             this.plPos19_3 = new System.Windows.Forms.Label();
@@ -50,6 +51,7 @@
             this.label19_2 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.house18 = new System.Windows.Forms.Label();
             this.button18 = new System.Windows.Forms.Button();
             this.plPos18_4 = new System.Windows.Forms.Label();
             this.plPos18_3 = new System.Windows.Forms.Label();
@@ -59,6 +61,7 @@
             this.label18_2 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.house17 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
             this.plPos17_4 = new System.Windows.Forms.Label();
             this.plPos17_3 = new System.Windows.Forms.Label();
@@ -68,6 +71,7 @@
             this.label17_2 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.house16 = new System.Windows.Forms.Label();
             this.button16 = new System.Windows.Forms.Button();
             this.plPos16_4 = new System.Windows.Forms.Label();
             this.plPos16_3 = new System.Windows.Forms.Label();
@@ -77,6 +81,7 @@
             this.label16_2 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.house15 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.plPos15_4 = new System.Windows.Forms.Label();
             this.plPos15_3 = new System.Windows.Forms.Label();
@@ -86,6 +91,7 @@
             this.label15_2 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.house13 = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
             this.plPos13_4 = new System.Windows.Forms.Label();
             this.plPos13_3 = new System.Windows.Forms.Label();
@@ -95,6 +101,7 @@
             this.label13_2 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.house11 = new System.Windows.Forms.Label();
             this.button11 = new System.Windows.Forms.Button();
             this.plPos11_4 = new System.Windows.Forms.Label();
             this.plPos11_3 = new System.Windows.Forms.Label();
@@ -104,6 +111,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label11_2 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.house10 = new System.Windows.Forms.Label();
             this.plPos10_4 = new System.Windows.Forms.Label();
             this.plPos10_3 = new System.Windows.Forms.Label();
             this.plPos10_2 = new System.Windows.Forms.Label();
@@ -113,6 +121,7 @@
             this.label10_2 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.house9 = new System.Windows.Forms.Label();
             this.plPos9_4 = new System.Windows.Forms.Label();
             this.plPos9_3 = new System.Windows.Forms.Label();
             this.plPos9_2 = new System.Windows.Forms.Label();
@@ -122,6 +131,7 @@
             this.label9_2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.house8 = new System.Windows.Forms.Label();
             this.plPos8_4 = new System.Windows.Forms.Label();
             this.plPos8_3 = new System.Windows.Forms.Label();
             this.plPos8_2 = new System.Windows.Forms.Label();
@@ -131,6 +141,7 @@
             this.label8_2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.house7 = new System.Windows.Forms.Label();
             this.plPos7_4 = new System.Windows.Forms.Label();
             this.plPos7_3 = new System.Windows.Forms.Label();
             this.plPos7_2 = new System.Windows.Forms.Label();
@@ -140,6 +151,7 @@
             this.label7_2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.house6 = new System.Windows.Forms.Label();
             this.plPos6_4 = new System.Windows.Forms.Label();
             this.plPos6_3 = new System.Windows.Forms.Label();
             this.plPos6_2 = new System.Windows.Forms.Label();
@@ -149,6 +161,7 @@
             this.label6_2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.house5 = new System.Windows.Forms.Label();
             this.plPos5_4 = new System.Windows.Forms.Label();
             this.plPos5_3 = new System.Windows.Forms.Label();
             this.plPos5_2 = new System.Windows.Forms.Label();
@@ -158,6 +171,7 @@
             this.label5_2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.house4 = new System.Windows.Forms.Label();
             this.plPos4_4 = new System.Windows.Forms.Label();
             this.plPos4_3 = new System.Windows.Forms.Label();
             this.plPos4_2 = new System.Windows.Forms.Label();
@@ -168,6 +182,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel40 = new System.Windows.Forms.Panel();
             this.panel57 = new System.Windows.Forms.Panel();
+            this.house40 = new System.Windows.Forms.Label();
             this.label40_3 = new System.Windows.Forms.Label();
             this.label40_2 = new System.Windows.Forms.Label();
             this.button40 = new System.Windows.Forms.Button();
@@ -178,6 +193,7 @@
             this.label40 = new System.Windows.Forms.Label();
             this.panel39 = new System.Windows.Forms.Panel();
             this.panel56 = new System.Windows.Forms.Panel();
+            this.house39 = new System.Windows.Forms.Label();
             this.label39_3 = new System.Windows.Forms.Label();
             this.label39_2 = new System.Windows.Forms.Label();
             this.button39 = new System.Windows.Forms.Button();
@@ -188,6 +204,7 @@
             this.label39 = new System.Windows.Forms.Label();
             this.panel38 = new System.Windows.Forms.Panel();
             this.panel55 = new System.Windows.Forms.Panel();
+            this.house38 = new System.Windows.Forms.Label();
             this.label38_3 = new System.Windows.Forms.Label();
             this.label38_2 = new System.Windows.Forms.Label();
             this.button38 = new System.Windows.Forms.Button();
@@ -198,6 +215,7 @@
             this.label38 = new System.Windows.Forms.Label();
             this.panel37 = new System.Windows.Forms.Panel();
             this.panel54 = new System.Windows.Forms.Panel();
+            this.house37 = new System.Windows.Forms.Label();
             this.label37_3 = new System.Windows.Forms.Label();
             this.label37_2 = new System.Windows.Forms.Label();
             this.button37 = new System.Windows.Forms.Button();
@@ -208,6 +226,7 @@
             this.label37 = new System.Windows.Forms.Label();
             this.panel36 = new System.Windows.Forms.Panel();
             this.panel53 = new System.Windows.Forms.Panel();
+            this.house36 = new System.Windows.Forms.Label();
             this.label36_3 = new System.Windows.Forms.Label();
             this.label36_2 = new System.Windows.Forms.Label();
             this.button36 = new System.Windows.Forms.Button();
@@ -218,6 +237,7 @@
             this.label36 = new System.Windows.Forms.Label();
             this.panel35 = new System.Windows.Forms.Panel();
             this.panel52 = new System.Windows.Forms.Panel();
+            this.house35 = new System.Windows.Forms.Label();
             this.label35_3 = new System.Windows.Forms.Label();
             this.label35_2 = new System.Windows.Forms.Label();
             this.button35 = new System.Windows.Forms.Button();
@@ -228,6 +248,7 @@
             this.label35 = new System.Windows.Forms.Label();
             this.panel34 = new System.Windows.Forms.Panel();
             this.panel51 = new System.Windows.Forms.Panel();
+            this.house34 = new System.Windows.Forms.Label();
             this.label34_3 = new System.Windows.Forms.Label();
             this.label34_2 = new System.Windows.Forms.Label();
             this.button34 = new System.Windows.Forms.Button();
@@ -238,6 +259,7 @@
             this.label34 = new System.Windows.Forms.Label();
             this.panel33 = new System.Windows.Forms.Panel();
             this.panel50 = new System.Windows.Forms.Panel();
+            this.house33 = new System.Windows.Forms.Label();
             this.label33_3 = new System.Windows.Forms.Label();
             this.label33_2 = new System.Windows.Forms.Label();
             this.button33 = new System.Windows.Forms.Button();
@@ -247,6 +269,7 @@
             this.plPos33_1 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.panel32 = new System.Windows.Forms.Panel();
+            this.house32 = new System.Windows.Forms.Label();
             this.label32_3 = new System.Windows.Forms.Label();
             this.label32_2 = new System.Windows.Forms.Label();
             this.button32 = new System.Windows.Forms.Button();
@@ -257,6 +280,7 @@
             this.label32 = new System.Windows.Forms.Label();
             this.panel31 = new System.Windows.Forms.Panel();
             this.panel49 = new System.Windows.Forms.Panel();
+            this.house31 = new System.Windows.Forms.Label();
             this.button31 = new System.Windows.Forms.Button();
             this.plPos31_4 = new System.Windows.Forms.Label();
             this.plPos31_3 = new System.Windows.Forms.Label();
@@ -267,6 +291,7 @@
             this.label31_2 = new System.Windows.Forms.Label();
             this.panel30 = new System.Windows.Forms.Panel();
             this.panel48 = new System.Windows.Forms.Panel();
+            this.house30 = new System.Windows.Forms.Label();
             this.label30_3 = new System.Windows.Forms.Label();
             this.button30 = new System.Windows.Forms.Button();
             this.label30_2 = new System.Windows.Forms.Label();
@@ -277,6 +302,7 @@
             this.label30 = new System.Windows.Forms.Label();
             this.panel29 = new System.Windows.Forms.Panel();
             this.panel47 = new System.Windows.Forms.Panel();
+            this.house29 = new System.Windows.Forms.Label();
             this.label29_3 = new System.Windows.Forms.Label();
             this.button29 = new System.Windows.Forms.Button();
             this.label29_2 = new System.Windows.Forms.Label();
@@ -287,6 +313,7 @@
             this.label29 = new System.Windows.Forms.Label();
             this.panel28 = new System.Windows.Forms.Panel();
             this.panel46 = new System.Windows.Forms.Panel();
+            this.house28 = new System.Windows.Forms.Label();
             this.label28_3 = new System.Windows.Forms.Label();
             this.button28 = new System.Windows.Forms.Button();
             this.label28_2 = new System.Windows.Forms.Label();
@@ -297,6 +324,7 @@
             this.label28 = new System.Windows.Forms.Label();
             this.panel27 = new System.Windows.Forms.Panel();
             this.panel45 = new System.Windows.Forms.Panel();
+            this.house27 = new System.Windows.Forms.Label();
             this.label27_3 = new System.Windows.Forms.Label();
             this.button27 = new System.Windows.Forms.Button();
             this.label27_2 = new System.Windows.Forms.Label();
@@ -307,6 +335,7 @@
             this.label27 = new System.Windows.Forms.Label();
             this.panel26 = new System.Windows.Forms.Panel();
             this.panel44 = new System.Windows.Forms.Panel();
+            this.house26 = new System.Windows.Forms.Label();
             this.label26_3 = new System.Windows.Forms.Label();
             this.button26 = new System.Windows.Forms.Button();
             this.label26_2 = new System.Windows.Forms.Label();
@@ -317,6 +346,7 @@
             this.label26 = new System.Windows.Forms.Label();
             this.panel25 = new System.Windows.Forms.Panel();
             this.panel43 = new System.Windows.Forms.Panel();
+            this.house25 = new System.Windows.Forms.Label();
             this.label25_3 = new System.Windows.Forms.Label();
             this.button25 = new System.Windows.Forms.Button();
             this.label25_2 = new System.Windows.Forms.Label();
@@ -327,6 +357,7 @@
             this.label25 = new System.Windows.Forms.Label();
             this.panel24 = new System.Windows.Forms.Panel();
             this.panel42 = new System.Windows.Forms.Panel();
+            this.house24 = new System.Windows.Forms.Label();
             this.label24_3 = new System.Windows.Forms.Label();
             this.button24 = new System.Windows.Forms.Button();
             this.label24_2 = new System.Windows.Forms.Label();
@@ -337,6 +368,7 @@
             this.label24 = new System.Windows.Forms.Label();
             this.panel23 = new System.Windows.Forms.Panel();
             this.panel41 = new System.Windows.Forms.Panel();
+            this.house23 = new System.Windows.Forms.Label();
             this.label23_3 = new System.Windows.Forms.Label();
             this.button23 = new System.Windows.Forms.Button();
             this.label23_2 = new System.Windows.Forms.Label();
@@ -346,6 +378,7 @@
             this.plPos23_1 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.panel22 = new System.Windows.Forms.Panel();
+            this.house22 = new System.Windows.Forms.Label();
             this.label22_3 = new System.Windows.Forms.Label();
             this.button22 = new System.Windows.Forms.Button();
             this.label22_2 = new System.Windows.Forms.Label();
@@ -355,6 +388,7 @@
             this.plPos22_1 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.panel21 = new System.Windows.Forms.Panel();
+            this.house21 = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
             this.plPos21_4 = new System.Windows.Forms.Label();
             this.plPos21_3 = new System.Windows.Forms.Label();
@@ -364,6 +398,7 @@
             this.label21_3 = new System.Windows.Forms.Label();
             this.label21_2 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.house12 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
             this.plPos12_4 = new System.Windows.Forms.Label();
             this.plPos12_3 = new System.Windows.Forms.Label();
@@ -373,6 +408,7 @@
             this.label12_2 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.house3 = new System.Windows.Forms.Label();
             this.plPos3_4 = new System.Windows.Forms.Label();
             this.plPos3_3 = new System.Windows.Forms.Label();
             this.plPos3_2 = new System.Windows.Forms.Label();
@@ -382,6 +418,7 @@
             this.label3_2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.house1 = new System.Windows.Forms.Label();
             this.plPos1_4 = new System.Windows.Forms.Label();
             this.plPos1_3 = new System.Windows.Forms.Label();
             this.plPos1_2 = new System.Windows.Forms.Label();
@@ -391,6 +428,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label1_2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.house2 = new System.Windows.Forms.Label();
             this.plPos2_4 = new System.Windows.Forms.Label();
             this.plPos2_3 = new System.Windows.Forms.Label();
             this.plPos2_2 = new System.Windows.Forms.Label();
@@ -400,6 +438,7 @@
             this.label2_2 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.house14 = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
             this.plPos14_4 = new System.Windows.Forms.Label();
             this.plPos14_3 = new System.Windows.Forms.Label();
@@ -408,6 +447,10 @@
             this.label14_3 = new System.Windows.Forms.Label();
             this.label14_2 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.button42 = new System.Windows.Forms.Button();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel20.SuspendLayout();
             this.panel19.SuspendLayout();
@@ -468,20 +511,13 @@
             this.panel14.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(734, 31);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(329, 20);
-            this.textBox1.TabIndex = 0;
-            // 
             // button41
             // 
-            this.button41.Location = new System.Drawing.Point(734, 86);
+            this.button41.Location = new System.Drawing.Point(734, 42);
             this.button41.Name = "button41";
             this.button41.Size = new System.Drawing.Size(329, 23);
             this.button41.TabIndex = 1;
-            this.button41.Text = "Submit";
+            this.button41.Text = "Start";
             this.button41.UseVisualStyleBackColor = true;
             this.button41.Click += new System.EventHandler(this.button41_Click);
             // 
@@ -560,6 +596,7 @@
             // panel20
             // 
             this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel20.Controls.Add(this.house20);
             this.panel20.Controls.Add(this.button20);
             this.panel20.Controls.Add(this.plPos20_4);
             this.panel20.Controls.Add(this.plPos20_3);
@@ -573,6 +610,14 @@
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(84, 48);
             this.panel20.TabIndex = 24;
+            // 
+            // house20
+            // 
+            this.house20.BackColor = System.Drawing.Color.White;
+            this.house20.Location = new System.Drawing.Point(3, 17);
+            this.house20.Name = "house20";
+            this.house20.Size = new System.Drawing.Size(12, 12);
+            this.house20.TabIndex = 30;
             // 
             // button20
             // 
@@ -654,6 +699,7 @@
             // panel19
             // 
             this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel19.Controls.Add(this.house19);
             this.panel19.Controls.Add(this.button19);
             this.panel19.Controls.Add(this.plPos19_4);
             this.panel19.Controls.Add(this.plPos19_3);
@@ -667,6 +713,14 @@
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(84, 48);
             this.panel19.TabIndex = 24;
+            // 
+            // house19
+            // 
+            this.house19.BackColor = System.Drawing.Color.White;
+            this.house19.Location = new System.Drawing.Point(3, 17);
+            this.house19.Name = "house19";
+            this.house19.Size = new System.Drawing.Size(12, 12);
+            this.house19.TabIndex = 30;
             // 
             // button19
             // 
@@ -748,6 +802,7 @@
             // panel18
             // 
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel18.Controls.Add(this.house18);
             this.panel18.Controls.Add(this.button18);
             this.panel18.Controls.Add(this.plPos18_4);
             this.panel18.Controls.Add(this.plPos18_3);
@@ -761,6 +816,14 @@
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(84, 48);
             this.panel18.TabIndex = 24;
+            // 
+            // house18
+            // 
+            this.house18.BackColor = System.Drawing.Color.White;
+            this.house18.Location = new System.Drawing.Point(3, 17);
+            this.house18.Name = "house18";
+            this.house18.Size = new System.Drawing.Size(12, 12);
+            this.house18.TabIndex = 30;
             // 
             // button18
             // 
@@ -842,6 +905,7 @@
             // panel17
             // 
             this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel17.Controls.Add(this.house17);
             this.panel17.Controls.Add(this.button17);
             this.panel17.Controls.Add(this.plPos17_4);
             this.panel17.Controls.Add(this.plPos17_3);
@@ -855,6 +919,14 @@
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(84, 48);
             this.panel17.TabIndex = 24;
+            // 
+            // house17
+            // 
+            this.house17.BackColor = System.Drawing.Color.White;
+            this.house17.Location = new System.Drawing.Point(3, 17);
+            this.house17.Name = "house17";
+            this.house17.Size = new System.Drawing.Size(12, 12);
+            this.house17.TabIndex = 30;
             // 
             // button17
             // 
@@ -936,6 +1008,7 @@
             // panel16
             // 
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel16.Controls.Add(this.house16);
             this.panel16.Controls.Add(this.button16);
             this.panel16.Controls.Add(this.plPos16_4);
             this.panel16.Controls.Add(this.plPos16_3);
@@ -949,6 +1022,14 @@
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(84, 48);
             this.panel16.TabIndex = 24;
+            // 
+            // house16
+            // 
+            this.house16.BackColor = System.Drawing.Color.White;
+            this.house16.Location = new System.Drawing.Point(3, 17);
+            this.house16.Name = "house16";
+            this.house16.Size = new System.Drawing.Size(12, 12);
+            this.house16.TabIndex = 30;
             // 
             // button16
             // 
@@ -1030,6 +1111,7 @@
             // panel15
             // 
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel15.Controls.Add(this.house15);
             this.panel15.Controls.Add(this.button15);
             this.panel15.Controls.Add(this.plPos15_4);
             this.panel15.Controls.Add(this.plPos15_3);
@@ -1043,6 +1125,14 @@
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(84, 48);
             this.panel15.TabIndex = 24;
+            // 
+            // house15
+            // 
+            this.house15.BackColor = System.Drawing.Color.White;
+            this.house15.Location = new System.Drawing.Point(3, 17);
+            this.house15.Name = "house15";
+            this.house15.Size = new System.Drawing.Size(12, 12);
+            this.house15.TabIndex = 30;
             // 
             // button15
             // 
@@ -1124,6 +1214,7 @@
             // panel13
             // 
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel13.Controls.Add(this.house13);
             this.panel13.Controls.Add(this.button13);
             this.panel13.Controls.Add(this.plPos13_4);
             this.panel13.Controls.Add(this.plPos13_3);
@@ -1137,6 +1228,14 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(84, 48);
             this.panel13.TabIndex = 17;
+            // 
+            // house13
+            // 
+            this.house13.BackColor = System.Drawing.Color.White;
+            this.house13.Location = new System.Drawing.Point(3, 17);
+            this.house13.Name = "house13";
+            this.house13.Size = new System.Drawing.Size(12, 12);
+            this.house13.TabIndex = 26;
             // 
             // button13
             // 
@@ -1218,6 +1317,7 @@
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel11.Controls.Add(this.house11);
             this.panel11.Controls.Add(this.button11);
             this.panel11.Controls.Add(this.plPos11_4);
             this.panel11.Controls.Add(this.plPos11_3);
@@ -1231,6 +1331,14 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(84, 84);
             this.panel11.TabIndex = 22;
+            // 
+            // house11
+            // 
+            this.house11.BackColor = System.Drawing.Color.White;
+            this.house11.Location = new System.Drawing.Point(35, 67);
+            this.house11.Name = "house11";
+            this.house11.Size = new System.Drawing.Size(12, 12);
+            this.house11.TabIndex = 16;
             // 
             // button11
             // 
@@ -1310,6 +1418,7 @@
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.house10);
             this.panel10.Controls.Add(this.plPos10_4);
             this.panel10.Controls.Add(this.plPos10_3);
             this.panel10.Controls.Add(this.plPos10_2);
@@ -1323,6 +1432,14 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(48, 84);
             this.panel10.TabIndex = 21;
+            // 
+            // house10
+            // 
+            this.house10.BackColor = System.Drawing.Color.White;
+            this.house10.Location = new System.Drawing.Point(17, 67);
+            this.house10.Name = "house10";
+            this.house10.Size = new System.Drawing.Size(12, 12);
+            this.house10.TabIndex = 19;
             // 
             // plPos10_4
             // 
@@ -1403,6 +1520,7 @@
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.Controls.Add(this.house9);
             this.panel9.Controls.Add(this.plPos9_4);
             this.panel9.Controls.Add(this.plPos9_3);
             this.panel9.Controls.Add(this.plPos9_2);
@@ -1416,6 +1534,14 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(48, 84);
             this.panel9.TabIndex = 20;
+            // 
+            // house9
+            // 
+            this.house9.BackColor = System.Drawing.Color.White;
+            this.house9.Location = new System.Drawing.Point(17, 67);
+            this.house9.Name = "house9";
+            this.house9.Size = new System.Drawing.Size(12, 12);
+            this.house9.TabIndex = 18;
             // 
             // plPos9_4
             // 
@@ -1496,6 +1622,7 @@
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel8.Controls.Add(this.house8);
             this.panel8.Controls.Add(this.plPos8_4);
             this.panel8.Controls.Add(this.plPos8_3);
             this.panel8.Controls.Add(this.plPos8_2);
@@ -1509,6 +1636,14 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(48, 84);
             this.panel8.TabIndex = 19;
+            // 
+            // house8
+            // 
+            this.house8.BackColor = System.Drawing.Color.White;
+            this.house8.Location = new System.Drawing.Point(17, 67);
+            this.house8.Name = "house8";
+            this.house8.Size = new System.Drawing.Size(12, 12);
+            this.house8.TabIndex = 17;
             // 
             // plPos8_4
             // 
@@ -1589,6 +1724,7 @@
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.house7);
             this.panel7.Controls.Add(this.plPos7_4);
             this.panel7.Controls.Add(this.plPos7_3);
             this.panel7.Controls.Add(this.plPos7_2);
@@ -1602,6 +1738,14 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(48, 84);
             this.panel7.TabIndex = 18;
+            // 
+            // house7
+            // 
+            this.house7.BackColor = System.Drawing.Color.White;
+            this.house7.Location = new System.Drawing.Point(17, 67);
+            this.house7.Name = "house7";
+            this.house7.Size = new System.Drawing.Size(12, 12);
+            this.house7.TabIndex = 16;
             // 
             // plPos7_4
             // 
@@ -1682,6 +1826,7 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.house6);
             this.panel6.Controls.Add(this.plPos6_4);
             this.panel6.Controls.Add(this.plPos6_3);
             this.panel6.Controls.Add(this.plPos6_2);
@@ -1695,6 +1840,14 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(48, 84);
             this.panel6.TabIndex = 17;
+            // 
+            // house6
+            // 
+            this.house6.BackColor = System.Drawing.Color.White;
+            this.house6.Location = new System.Drawing.Point(17, 67);
+            this.house6.Name = "house6";
+            this.house6.Size = new System.Drawing.Size(12, 12);
+            this.house6.TabIndex = 15;
             // 
             // plPos6_4
             // 
@@ -1775,6 +1928,7 @@
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.house5);
             this.panel5.Controls.Add(this.plPos5_4);
             this.panel5.Controls.Add(this.plPos5_3);
             this.panel5.Controls.Add(this.plPos5_2);
@@ -1788,6 +1942,14 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(48, 84);
             this.panel5.TabIndex = 16;
+            // 
+            // house5
+            // 
+            this.house5.BackColor = System.Drawing.Color.White;
+            this.house5.Location = new System.Drawing.Point(17, 67);
+            this.house5.Name = "house5";
+            this.house5.Size = new System.Drawing.Size(12, 12);
+            this.house5.TabIndex = 15;
             // 
             // plPos5_4
             // 
@@ -1868,6 +2030,7 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.house4);
             this.panel4.Controls.Add(this.plPos4_4);
             this.panel4.Controls.Add(this.plPos4_3);
             this.panel4.Controls.Add(this.plPos4_2);
@@ -1881,6 +2044,14 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(48, 84);
             this.panel4.TabIndex = 6;
+            // 
+            // house4
+            // 
+            this.house4.BackColor = System.Drawing.Color.White;
+            this.house4.Location = new System.Drawing.Point(17, 67);
+            this.house4.Name = "house4";
+            this.house4.Size = new System.Drawing.Size(12, 12);
+            this.house4.TabIndex = 15;
             // 
             // plPos4_4
             // 
@@ -1971,6 +2142,7 @@
             // panel57
             // 
             this.panel57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel57.Controls.Add(this.house40);
             this.panel57.Controls.Add(this.label40_3);
             this.panel57.Controls.Add(this.label40_2);
             this.panel57.Controls.Add(this.button40);
@@ -1984,6 +2156,14 @@
             this.panel57.Name = "panel57";
             this.panel57.Size = new System.Drawing.Size(84, 48);
             this.panel57.TabIndex = 12;
+            // 
+            // house40
+            // 
+            this.house40.BackColor = System.Drawing.Color.White;
+            this.house40.Location = new System.Drawing.Point(68, 17);
+            this.house40.Name = "house40";
+            this.house40.Size = new System.Drawing.Size(12, 12);
+            this.house40.TabIndex = 35;
             // 
             // label40_3
             // 
@@ -2075,6 +2255,7 @@
             // panel56
             // 
             this.panel56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel56.Controls.Add(this.house39);
             this.panel56.Controls.Add(this.label39_3);
             this.panel56.Controls.Add(this.label39_2);
             this.panel56.Controls.Add(this.button39);
@@ -2088,6 +2269,14 @@
             this.panel56.Name = "panel56";
             this.panel56.Size = new System.Drawing.Size(84, 48);
             this.panel56.TabIndex = 12;
+            // 
+            // house39
+            // 
+            this.house39.BackColor = System.Drawing.Color.White;
+            this.house39.Location = new System.Drawing.Point(68, 17);
+            this.house39.Name = "house39";
+            this.house39.Size = new System.Drawing.Size(12, 12);
+            this.house39.TabIndex = 35;
             // 
             // label39_3
             // 
@@ -2179,6 +2368,7 @@
             // panel55
             // 
             this.panel55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel55.Controls.Add(this.house38);
             this.panel55.Controls.Add(this.label38_3);
             this.panel55.Controls.Add(this.label38_2);
             this.panel55.Controls.Add(this.button38);
@@ -2192,6 +2382,14 @@
             this.panel55.Name = "panel55";
             this.panel55.Size = new System.Drawing.Size(84, 48);
             this.panel55.TabIndex = 12;
+            // 
+            // house38
+            // 
+            this.house38.BackColor = System.Drawing.Color.White;
+            this.house38.Location = new System.Drawing.Point(68, 17);
+            this.house38.Name = "house38";
+            this.house38.Size = new System.Drawing.Size(12, 12);
+            this.house38.TabIndex = 35;
             // 
             // label38_3
             // 
@@ -2283,6 +2481,7 @@
             // panel54
             // 
             this.panel54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel54.Controls.Add(this.house37);
             this.panel54.Controls.Add(this.label37_3);
             this.panel54.Controls.Add(this.label37_2);
             this.panel54.Controls.Add(this.button37);
@@ -2296,6 +2495,14 @@
             this.panel54.Name = "panel54";
             this.panel54.Size = new System.Drawing.Size(84, 48);
             this.panel54.TabIndex = 12;
+            // 
+            // house37
+            // 
+            this.house37.BackColor = System.Drawing.Color.White;
+            this.house37.Location = new System.Drawing.Point(68, 17);
+            this.house37.Name = "house37";
+            this.house37.Size = new System.Drawing.Size(12, 12);
+            this.house37.TabIndex = 35;
             // 
             // label37_3
             // 
@@ -2387,6 +2594,7 @@
             // panel53
             // 
             this.panel53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel53.Controls.Add(this.house36);
             this.panel53.Controls.Add(this.label36_3);
             this.panel53.Controls.Add(this.label36_2);
             this.panel53.Controls.Add(this.button36);
@@ -2400,6 +2608,14 @@
             this.panel53.Name = "panel53";
             this.panel53.Size = new System.Drawing.Size(84, 48);
             this.panel53.TabIndex = 12;
+            // 
+            // house36
+            // 
+            this.house36.BackColor = System.Drawing.Color.White;
+            this.house36.Location = new System.Drawing.Point(68, 17);
+            this.house36.Name = "house36";
+            this.house36.Size = new System.Drawing.Size(12, 12);
+            this.house36.TabIndex = 35;
             // 
             // label36_3
             // 
@@ -2491,6 +2707,7 @@
             // panel52
             // 
             this.panel52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel52.Controls.Add(this.house35);
             this.panel52.Controls.Add(this.label35_3);
             this.panel52.Controls.Add(this.label35_2);
             this.panel52.Controls.Add(this.button35);
@@ -2504,6 +2721,14 @@
             this.panel52.Name = "panel52";
             this.panel52.Size = new System.Drawing.Size(84, 48);
             this.panel52.TabIndex = 12;
+            // 
+            // house35
+            // 
+            this.house35.BackColor = System.Drawing.Color.White;
+            this.house35.Location = new System.Drawing.Point(68, 17);
+            this.house35.Name = "house35";
+            this.house35.Size = new System.Drawing.Size(12, 12);
+            this.house35.TabIndex = 35;
             // 
             // label35_3
             // 
@@ -2595,6 +2820,7 @@
             // panel51
             // 
             this.panel51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel51.Controls.Add(this.house34);
             this.panel51.Controls.Add(this.label34_3);
             this.panel51.Controls.Add(this.label34_2);
             this.panel51.Controls.Add(this.button34);
@@ -2608,6 +2834,14 @@
             this.panel51.Name = "panel51";
             this.panel51.Size = new System.Drawing.Size(84, 48);
             this.panel51.TabIndex = 12;
+            // 
+            // house34
+            // 
+            this.house34.BackColor = System.Drawing.Color.White;
+            this.house34.Location = new System.Drawing.Point(68, 17);
+            this.house34.Name = "house34";
+            this.house34.Size = new System.Drawing.Size(12, 12);
+            this.house34.TabIndex = 35;
             // 
             // label34_3
             // 
@@ -2699,6 +2933,7 @@
             // panel50
             // 
             this.panel50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel50.Controls.Add(this.house33);
             this.panel50.Controls.Add(this.label33_3);
             this.panel50.Controls.Add(this.label33_2);
             this.panel50.Controls.Add(this.button33);
@@ -2712,6 +2947,14 @@
             this.panel50.Name = "panel50";
             this.panel50.Size = new System.Drawing.Size(84, 48);
             this.panel50.TabIndex = 12;
+            // 
+            // house33
+            // 
+            this.house33.BackColor = System.Drawing.Color.White;
+            this.house33.Location = new System.Drawing.Point(68, 17);
+            this.house33.Name = "house33";
+            this.house33.Size = new System.Drawing.Size(12, 12);
+            this.house33.TabIndex = 35;
             // 
             // label33_3
             // 
@@ -2793,6 +3036,7 @@
             // panel32
             // 
             this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel32.Controls.Add(this.house32);
             this.panel32.Controls.Add(this.label32_3);
             this.panel32.Controls.Add(this.label32_2);
             this.panel32.Controls.Add(this.button32);
@@ -2806,6 +3050,14 @@
             this.panel32.Name = "panel32";
             this.panel32.Size = new System.Drawing.Size(84, 48);
             this.panel32.TabIndex = 11;
+            // 
+            // house32
+            // 
+            this.house32.BackColor = System.Drawing.Color.White;
+            this.house32.Location = new System.Drawing.Point(68, 17);
+            this.house32.Name = "house32";
+            this.house32.Size = new System.Drawing.Size(12, 12);
+            this.house32.TabIndex = 35;
             // 
             // label32_3
             // 
@@ -2897,6 +3149,7 @@
             // panel49
             // 
             this.panel49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel49.Controls.Add(this.house31);
             this.panel49.Controls.Add(this.button31);
             this.panel49.Controls.Add(this.plPos31_4);
             this.panel49.Controls.Add(this.plPos31_3);
@@ -2910,6 +3163,14 @@
             this.panel49.Name = "panel49";
             this.panel49.Size = new System.Drawing.Size(84, 84);
             this.panel49.TabIndex = 3;
+            // 
+            // house31
+            // 
+            this.house31.BackColor = System.Drawing.Color.White;
+            this.house31.Location = new System.Drawing.Point(35, 3);
+            this.house31.Name = "house31";
+            this.house31.Size = new System.Drawing.Size(12, 12);
+            this.house31.TabIndex = 24;
             // 
             // button31
             // 
@@ -2999,6 +3260,7 @@
             // panel48
             // 
             this.panel48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel48.Controls.Add(this.house30);
             this.panel48.Controls.Add(this.label30_3);
             this.panel48.Controls.Add(this.button30);
             this.panel48.Controls.Add(this.label30_2);
@@ -3013,6 +3275,14 @@
             this.panel48.Size = new System.Drawing.Size(48, 84);
             this.panel48.TabIndex = 10;
             // 
+            // house30
+            // 
+            this.house30.BackColor = System.Drawing.Color.White;
+            this.house30.Location = new System.Drawing.Point(17, 3);
+            this.house30.Name = "house30";
+            this.house30.Size = new System.Drawing.Size(12, 12);
+            this.house30.TabIndex = 23;
+            // 
             // label30_3
             // 
             this.label30_3.BackColor = System.Drawing.Color.Transparent;
@@ -3026,7 +3296,7 @@
             // button30
             // 
             this.button30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.button30.Location = new System.Drawing.Point(14, 48);
+            this.button30.Location = new System.Drawing.Point(17, 48);
             this.button30.Margin = new System.Windows.Forms.Padding(0);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(16, 16);
@@ -3102,6 +3372,7 @@
             // panel47
             // 
             this.panel47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel47.Controls.Add(this.house29);
             this.panel47.Controls.Add(this.label29_3);
             this.panel47.Controls.Add(this.button29);
             this.panel47.Controls.Add(this.label29_2);
@@ -3116,6 +3387,14 @@
             this.panel47.Size = new System.Drawing.Size(48, 84);
             this.panel47.TabIndex = 10;
             // 
+            // house29
+            // 
+            this.house29.BackColor = System.Drawing.Color.White;
+            this.house29.Location = new System.Drawing.Point(17, 3);
+            this.house29.Name = "house29";
+            this.house29.Size = new System.Drawing.Size(12, 12);
+            this.house29.TabIndex = 23;
+            // 
             // label29_3
             // 
             this.label29_3.BackColor = System.Drawing.Color.Transparent;
@@ -3129,7 +3408,7 @@
             // button29
             // 
             this.button29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.button29.Location = new System.Drawing.Point(14, 48);
+            this.button29.Location = new System.Drawing.Point(17, 48);
             this.button29.Margin = new System.Windows.Forms.Padding(0);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(16, 16);
@@ -3205,6 +3484,7 @@
             // panel46
             // 
             this.panel46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel46.Controls.Add(this.house28);
             this.panel46.Controls.Add(this.label28_3);
             this.panel46.Controls.Add(this.button28);
             this.panel46.Controls.Add(this.label28_2);
@@ -3219,6 +3499,14 @@
             this.panel46.Size = new System.Drawing.Size(48, 84);
             this.panel46.TabIndex = 10;
             // 
+            // house28
+            // 
+            this.house28.BackColor = System.Drawing.Color.White;
+            this.house28.Location = new System.Drawing.Point(17, 3);
+            this.house28.Name = "house28";
+            this.house28.Size = new System.Drawing.Size(12, 12);
+            this.house28.TabIndex = 23;
+            // 
             // label28_3
             // 
             this.label28_3.BackColor = System.Drawing.Color.Transparent;
@@ -3232,7 +3520,7 @@
             // button28
             // 
             this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.button28.Location = new System.Drawing.Point(14, 48);
+            this.button28.Location = new System.Drawing.Point(17, 48);
             this.button28.Margin = new System.Windows.Forms.Padding(0);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(16, 16);
@@ -3308,6 +3596,7 @@
             // panel45
             // 
             this.panel45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel45.Controls.Add(this.house27);
             this.panel45.Controls.Add(this.label27_3);
             this.panel45.Controls.Add(this.button27);
             this.panel45.Controls.Add(this.label27_2);
@@ -3322,6 +3611,14 @@
             this.panel45.Size = new System.Drawing.Size(48, 84);
             this.panel45.TabIndex = 10;
             // 
+            // house27
+            // 
+            this.house27.BackColor = System.Drawing.Color.White;
+            this.house27.Location = new System.Drawing.Point(17, 3);
+            this.house27.Name = "house27";
+            this.house27.Size = new System.Drawing.Size(12, 12);
+            this.house27.TabIndex = 23;
+            // 
             // label27_3
             // 
             this.label27_3.BackColor = System.Drawing.Color.Transparent;
@@ -3335,7 +3632,7 @@
             // button27
             // 
             this.button27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.button27.Location = new System.Drawing.Point(14, 48);
+            this.button27.Location = new System.Drawing.Point(17, 48);
             this.button27.Margin = new System.Windows.Forms.Padding(0);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(16, 16);
@@ -3411,6 +3708,7 @@
             // panel44
             // 
             this.panel44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel44.Controls.Add(this.house26);
             this.panel44.Controls.Add(this.label26_3);
             this.panel44.Controls.Add(this.button26);
             this.panel44.Controls.Add(this.label26_2);
@@ -3425,6 +3723,14 @@
             this.panel44.Size = new System.Drawing.Size(48, 84);
             this.panel44.TabIndex = 10;
             // 
+            // house26
+            // 
+            this.house26.BackColor = System.Drawing.Color.White;
+            this.house26.Location = new System.Drawing.Point(17, 3);
+            this.house26.Name = "house26";
+            this.house26.Size = new System.Drawing.Size(12, 12);
+            this.house26.TabIndex = 23;
+            // 
             // label26_3
             // 
             this.label26_3.BackColor = System.Drawing.Color.Transparent;
@@ -3438,7 +3744,7 @@
             // button26
             // 
             this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.button26.Location = new System.Drawing.Point(14, 48);
+            this.button26.Location = new System.Drawing.Point(17, 48);
             this.button26.Margin = new System.Windows.Forms.Padding(0);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(16, 16);
@@ -3514,6 +3820,7 @@
             // panel43
             // 
             this.panel43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel43.Controls.Add(this.house25);
             this.panel43.Controls.Add(this.label25_3);
             this.panel43.Controls.Add(this.button25);
             this.panel43.Controls.Add(this.label25_2);
@@ -3528,6 +3835,14 @@
             this.panel43.Size = new System.Drawing.Size(48, 84);
             this.panel43.TabIndex = 10;
             // 
+            // house25
+            // 
+            this.house25.BackColor = System.Drawing.Color.White;
+            this.house25.Location = new System.Drawing.Point(17, 3);
+            this.house25.Name = "house25";
+            this.house25.Size = new System.Drawing.Size(12, 12);
+            this.house25.TabIndex = 23;
+            // 
             // label25_3
             // 
             this.label25_3.BackColor = System.Drawing.Color.Transparent;
@@ -3541,7 +3856,7 @@
             // button25
             // 
             this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.button25.Location = new System.Drawing.Point(14, 48);
+            this.button25.Location = new System.Drawing.Point(17, 48);
             this.button25.Margin = new System.Windows.Forms.Padding(0);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(16, 16);
@@ -3617,6 +3932,7 @@
             // panel42
             // 
             this.panel42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel42.Controls.Add(this.house24);
             this.panel42.Controls.Add(this.label24_3);
             this.panel42.Controls.Add(this.button24);
             this.panel42.Controls.Add(this.label24_2);
@@ -3631,6 +3947,14 @@
             this.panel42.Size = new System.Drawing.Size(48, 84);
             this.panel42.TabIndex = 10;
             // 
+            // house24
+            // 
+            this.house24.BackColor = System.Drawing.Color.White;
+            this.house24.Location = new System.Drawing.Point(17, 3);
+            this.house24.Name = "house24";
+            this.house24.Size = new System.Drawing.Size(12, 12);
+            this.house24.TabIndex = 23;
+            // 
             // label24_3
             // 
             this.label24_3.BackColor = System.Drawing.Color.Transparent;
@@ -3644,7 +3968,7 @@
             // button24
             // 
             this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.button24.Location = new System.Drawing.Point(14, 48);
+            this.button24.Location = new System.Drawing.Point(17, 48);
             this.button24.Margin = new System.Windows.Forms.Padding(0);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(16, 16);
@@ -3720,6 +4044,7 @@
             // panel41
             // 
             this.panel41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel41.Controls.Add(this.house23);
             this.panel41.Controls.Add(this.label23_3);
             this.panel41.Controls.Add(this.button23);
             this.panel41.Controls.Add(this.label23_2);
@@ -3734,6 +4059,14 @@
             this.panel41.Size = new System.Drawing.Size(48, 84);
             this.panel41.TabIndex = 10;
             // 
+            // house23
+            // 
+            this.house23.BackColor = System.Drawing.Color.White;
+            this.house23.Location = new System.Drawing.Point(17, 3);
+            this.house23.Name = "house23";
+            this.house23.Size = new System.Drawing.Size(12, 12);
+            this.house23.TabIndex = 23;
+            // 
             // label23_3
             // 
             this.label23_3.BackColor = System.Drawing.Color.Transparent;
@@ -3747,7 +4080,7 @@
             // button23
             // 
             this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.button23.Location = new System.Drawing.Point(14, 48);
+            this.button23.Location = new System.Drawing.Point(17, 48);
             this.button23.Margin = new System.Windows.Forms.Padding(0);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(16, 16);
@@ -3813,6 +4146,7 @@
             // panel22
             // 
             this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel22.Controls.Add(this.house22);
             this.panel22.Controls.Add(this.label22_3);
             this.panel22.Controls.Add(this.button22);
             this.panel22.Controls.Add(this.label22_2);
@@ -3827,6 +4161,14 @@
             this.panel22.Size = new System.Drawing.Size(48, 84);
             this.panel22.TabIndex = 9;
             // 
+            // house22
+            // 
+            this.house22.BackColor = System.Drawing.Color.White;
+            this.house22.Location = new System.Drawing.Point(17, 3);
+            this.house22.Name = "house22";
+            this.house22.Size = new System.Drawing.Size(12, 12);
+            this.house22.TabIndex = 23;
+            // 
             // label22_3
             // 
             this.label22_3.BackColor = System.Drawing.Color.Transparent;
@@ -3840,7 +4182,7 @@
             // button22
             // 
             this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.button22.Location = new System.Drawing.Point(14, 48);
+            this.button22.Location = new System.Drawing.Point(17, 48);
             this.button22.Margin = new System.Windows.Forms.Padding(0);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(16, 16);
@@ -3906,6 +4248,7 @@
             // panel21
             // 
             this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel21.Controls.Add(this.house21);
             this.panel21.Controls.Add(this.button21);
             this.panel21.Controls.Add(this.plPos21_4);
             this.panel21.Controls.Add(this.plPos21_3);
@@ -3919,6 +4262,14 @@
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(84, 84);
             this.panel21.TabIndex = 2;
+            // 
+            // house21
+            // 
+            this.house21.BackColor = System.Drawing.Color.White;
+            this.house21.Location = new System.Drawing.Point(33, 3);
+            this.house21.Name = "house21";
+            this.house21.Size = new System.Drawing.Size(12, 12);
+            this.house21.TabIndex = 24;
             // 
             // button21
             // 
@@ -3998,6 +4349,7 @@
             // panel12
             // 
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel12.Controls.Add(this.house12);
             this.panel12.Controls.Add(this.button12);
             this.panel12.Controls.Add(this.plPos12_4);
             this.panel12.Controls.Add(this.plPos12_3);
@@ -4011,6 +4363,14 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(84, 48);
             this.panel12.TabIndex = 2;
+            // 
+            // house12
+            // 
+            this.house12.BackColor = System.Drawing.Color.White;
+            this.house12.Location = new System.Drawing.Point(3, 17);
+            this.house12.Name = "house12";
+            this.house12.Size = new System.Drawing.Size(12, 12);
+            this.house12.TabIndex = 22;
             // 
             // button12
             // 
@@ -4092,6 +4452,7 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.house3);
             this.panel3.Controls.Add(this.plPos3_4);
             this.panel3.Controls.Add(this.plPos3_3);
             this.panel3.Controls.Add(this.plPos3_2);
@@ -4105,6 +4466,14 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(48, 84);
             this.panel3.TabIndex = 1;
+            // 
+            // house3
+            // 
+            this.house3.BackColor = System.Drawing.Color.White;
+            this.house3.Location = new System.Drawing.Point(17, 67);
+            this.house3.Name = "house3";
+            this.house3.Size = new System.Drawing.Size(12, 12);
+            this.house3.TabIndex = 15;
             // 
             // plPos3_4
             // 
@@ -4184,6 +4553,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.house1);
             this.panel1.Controls.Add(this.plPos1_4);
             this.panel1.Controls.Add(this.plPos1_3);
             this.panel1.Controls.Add(this.plPos1_2);
@@ -4197,6 +4567,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(84, 84);
             this.panel1.TabIndex = 0;
+            // 
+            // house1
+            // 
+            this.house1.BackColor = System.Drawing.Color.White;
+            this.house1.Location = new System.Drawing.Point(35, 67);
+            this.house1.Name = "house1";
+            this.house1.Size = new System.Drawing.Size(12, 12);
+            this.house1.TabIndex = 15;
             // 
             // plPos1_4
             // 
@@ -4276,6 +4654,7 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.house2);
             this.panel2.Controls.Add(this.plPos2_4);
             this.panel2.Controls.Add(this.plPos2_3);
             this.panel2.Controls.Add(this.plPos2_2);
@@ -4289,6 +4668,14 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(48, 84);
             this.panel2.TabIndex = 0;
+            // 
+            // house2
+            // 
+            this.house2.BackColor = System.Drawing.Color.White;
+            this.house2.Location = new System.Drawing.Point(17, 67);
+            this.house2.Name = "house2";
+            this.house2.Size = new System.Drawing.Size(12, 12);
+            this.house2.TabIndex = 11;
             // 
             // plPos2_4
             // 
@@ -4369,6 +4756,7 @@
             // panel14
             // 
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel14.Controls.Add(this.house14);
             this.panel14.Controls.Add(this.button14);
             this.panel14.Controls.Add(this.plPos14_4);
             this.panel14.Controls.Add(this.plPos14_3);
@@ -4382,6 +4770,14 @@
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(84, 48);
             this.panel14.TabIndex = 23;
+            // 
+            // house14
+            // 
+            this.house14.BackColor = System.Drawing.Color.White;
+            this.house14.Location = new System.Drawing.Point(3, 17);
+            this.house14.Name = "house14";
+            this.house14.Size = new System.Drawing.Size(12, 12);
+            this.house14.TabIndex = 30;
             // 
             // button14
             // 
@@ -4460,14 +4856,54 @@
             this.label14.TabIndex = 15;
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button42
+            // 
+            this.button42.Location = new System.Drawing.Point(734, 65);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(329, 23);
+            this.button42.TabIndex = 3;
+            this.button42.Text = "Start";
+            this.button42.UseVisualStyleBackColor = true;
+            this.button42.Click += new System.EventHandler(this.button42_Click);
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(731, 107);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(41, 13);
+            this.label41.TabIndex = 4;
+            this.label41.Text = "label41";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(731, 130);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(41, 13);
+            this.label42.TabIndex = 5;
+            this.label42.Text = "label42";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(731, 155);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(41, 13);
+            this.label43.TabIndex = 6;
+            this.label43.Text = "label43";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 620);
+            this.Controls.Add(this.label43);
+            this.Controls.Add(this.label42);
+            this.Controls.Add(this.label41);
+            this.Controls.Add(this.button42);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.button41);
-            this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -4534,8 +4970,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button41;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel40;
@@ -4915,6 +5349,50 @@
         private System.Windows.Forms.Label plPos32_2;
         private System.Windows.Forms.Label plPos32_1;
         public System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label house11;
+        private System.Windows.Forms.Label house10;
+        private System.Windows.Forms.Label house9;
+        private System.Windows.Forms.Label house8;
+        private System.Windows.Forms.Label house7;
+        private System.Windows.Forms.Label house6;
+        private System.Windows.Forms.Label house5;
+        private System.Windows.Forms.Label house4;
+        private System.Windows.Forms.Label house12;
+        private System.Windows.Forms.Label house3;
+        private System.Windows.Forms.Label house1;
+        private System.Windows.Forms.Label house2;
+        private System.Windows.Forms.Label house20;
+        private System.Windows.Forms.Label house19;
+        private System.Windows.Forms.Label house18;
+        private System.Windows.Forms.Label house17;
+        private System.Windows.Forms.Label house16;
+        private System.Windows.Forms.Label house15;
+        private System.Windows.Forms.Label house13;
+        private System.Windows.Forms.Label house35;
+        private System.Windows.Forms.Label house34;
+        private System.Windows.Forms.Label house33;
+        private System.Windows.Forms.Label house32;
+        private System.Windows.Forms.Label house31;
+        private System.Windows.Forms.Label house30;
+        private System.Windows.Forms.Label house29;
+        private System.Windows.Forms.Label house28;
+        private System.Windows.Forms.Label house27;
+        private System.Windows.Forms.Label house26;
+        private System.Windows.Forms.Label house25;
+        private System.Windows.Forms.Label house24;
+        private System.Windows.Forms.Label house23;
+        private System.Windows.Forms.Label house22;
+        private System.Windows.Forms.Label house21;
+        private System.Windows.Forms.Label house14;
+        private System.Windows.Forms.Label house40;
+        private System.Windows.Forms.Label house39;
+        private System.Windows.Forms.Label house38;
+        private System.Windows.Forms.Label house37;
+        private System.Windows.Forms.Label house36;
+        private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label43;
     }
 }
 

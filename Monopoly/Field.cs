@@ -15,7 +15,6 @@ namespace Monopoly
         public string Name { get; set; }
 
         public Color Color { get; set; }
-
         public Field(int id, string name, Color color)
         {
             Id = id;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Monopoly
 {
-    class Dicecs
+    public class DiceRoll
     {
         Random random = new Random();
 
@@ -14,35 +14,46 @@ namespace Monopoly
         public int Dice2 { get; set; }
         public int RandomizedNumber { get; set; }
         public int NumberOfRolls { get; set; }
+        public int Exit { get; set; }
 
 
-        public Dicecs()
+        public DiceRoll()
         {
             Dice1 = 0;
             Dice2 = 0;
             RandomizedNumber = 0;
             NumberOfRolls = 0;
+            Exit = 0;
+
 
         }
         public void Roll()
         {
 
 
-            for (int i = 0; i < 3; i++)
-            {
+            //for (int i = 0; i < 3; i++)
+            //{
                 NumberOfRolls++;
                 Randomize();
                 RandomizedNumber += Dice1 + Dice2;
                 if (Dice1 != Dice2)
-                    break;
-            }
+                    Exit = 1;
+                else if (NumberOfRolls == 2)
+                    Exit = -1;
+                else
+                    Exit = 0;
+                
+                    
+                
+                //    break;
+                //}
 
-            if (NumberOfRolls == 3)
-                RandomizedNumber = -1;
+                //if (NumberOfRolls == 3)
+                //    RandomizedNumber = -1;
 
-            //if number of rolls is equal to 3 than RandomizedNumber is set to -1 that means 
-            //that player goes to the prison
-            //TODO: in move sequencion
+                //if number of rolls is equal to 3 than RandomizedNumber is set to -1 that means 
+                //that player goes to the prison
+                //TODO: in move sequencion
         }
 
         public void Randomize()
@@ -50,6 +61,8 @@ namespace Monopoly
 
             Dice1 = random.Next(1, 7);
             Dice2 = random.Next(1, 7);
+            //Dice1 = 1;
+            //Dice2 = 1;
 
         }
 

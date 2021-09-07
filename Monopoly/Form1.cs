@@ -13,9 +13,13 @@ namespace Monopoly
     public partial class Form1 : Form
     {
         int infoIndex = 0;
-        List<Player> players = new List<Player>();
+        public List<Player> players = new List<Player>();
         List<Field> fields = new List<Field>();
         List<Field> treasureFields = new List<Field>();
+        List<Label> labels = new List<Label>();
+        List<Label> playerPosition = new List<Label>();
+        List<Label> houses = new List<Label>();
+        public int CurrentPlayer { get; set; } = 0;
         public Form1()
         {
             InitializeComponent();
@@ -30,8 +34,6 @@ namespace Monopoly
 
         private void initializeMap(object sender, EventArgs e)
         {
-            List<Label> labels = new List<Label>();
-            List<Label> playerPosition = new List<Label>();
 
             labels.Add(label1);
             labels.Add(label2);
@@ -318,6 +320,47 @@ namespace Monopoly
             playerPosition.Add(plPos39_4);
             playerPosition.Add(plPos40_4);
 
+            houses.Add(house1);
+            houses.Add(house2);
+            houses.Add(house3);
+            houses.Add(house4);
+            houses.Add(house5);
+            houses.Add(house6);
+            houses.Add(house7);
+            houses.Add(house8);
+            houses.Add(house9);
+            houses.Add(house10);
+            houses.Add(house11);
+            houses.Add(house12);
+            houses.Add(house13);
+            houses.Add(house14);
+            houses.Add(house15);
+            houses.Add(house16);
+            houses.Add(house17);
+            houses.Add(house18);
+            houses.Add(house19);
+            houses.Add(house20);
+            houses.Add(house21);
+            houses.Add(house22);
+            houses.Add(house23);
+            houses.Add(house24);
+            houses.Add(house25);
+            houses.Add(house26);
+            houses.Add(house27);
+            houses.Add(house28);
+            houses.Add(house29);
+            houses.Add(house30);
+            houses.Add(house31);
+            houses.Add(house32);
+            houses.Add(house33);
+            houses.Add(house34);
+            houses.Add(house35);
+            houses.Add(house36);
+            houses.Add(house37);
+            houses.Add(house38);
+            houses.Add(house39);
+            houses.Add(house40);
+
 
             //todo: to delete - testing look of player's position
             //for (int i = 0; i < playerPosition.Count/4; i++)
@@ -360,9 +403,10 @@ namespace Monopoly
         }
         static void InitializePlayer(ref List<Player> players)
         {
-            players.Add(new Player(1, "Player1", 3000, 3000, 1));
-            players.Add(new Player(2, "Player2", 3000, 3000, 1));
-            players.Add(new Player(3, "Player3", 3000, 3000, 1));
+            players.Add(new Player(1, "Player1", 0, 3000, 1));
+            players.Add(new Player(2, "Player2", 3000, 3000, 5));
+            players.Add(new Player(3, "Player3", 3000, 3000, 9));
+            players.Add(new Player(4, "Player4", 3000, 3000, 19));
         }
 
         static void InitializeFields(ref List<Field> fields)
@@ -372,7 +416,7 @@ namespace Monopoly
             fields.Add(new RandomField(3, "?", Color.Transparent));
             fields.Add(new CityField(4, "Ateny", Color.Yellow, 120, 1, 10, 40, 120, 360, 640, 900));
             fields.Add(new PaymentField(5, "Parking strzeżony", Color.Transparent, 400));
-            fields.Add(new RandomField(3, "Koleje Południowe", Color.Transparent));
+            fields.Add(new CityField(6, "Koleje Południowe", Color.Transparent, 400, 10, 100, 100, 100, 100, 100, 100));
             fields.Add(new CityField(7, "Neapol", Color.Red, 200, 2, 15, 60, 180, 540, 800, 1100));
             fields.Add(new RandomField(8, "?", Color.Transparent));
             fields.Add(new CityField(9, "Mediolan", Color.Red, 200, 2, 15, 60, 180, 540, 800, 1100));
@@ -384,17 +428,17 @@ namespace Monopoly
 
             fields.Add(new CityField(14, "Sewilla", Color.DodgerBlue, 280, 3, 20, 100, 300, 900, 1250, 1500));
             fields.Add(new CityField(15, "Madryt", Color.DodgerBlue, 320, 3, 25, 120, 360, 100, 1400, 1800));
-            fields.Add(new RandomField(19, "Koleje Zachodnie", Color.Transparent));
+            fields.Add(new CityField(19, "Koleje Zachodnie", Color.Transparent, 100, 400, 10, 100, 100, 100, 100, 100));
             fields.Add(new CityField(17, "Liverpool", Color.Orange, 360, 4, 30, 140, 400, 1100, 1500, 1900));
             fields.Add(new RandomField(18, "?", Color.Transparent));
             fields.Add(new CityField(19, "Glasgow", Color.Orange, 360, 4, 30, 140, 400, 1100, 1500, 1900));
             fields.Add(new CityField(20, "Londyn", Color.Orange, 400, 4, 35, 160, 440, 1200, 1600, 2000));
             fields.Add(new Field(21, "Darmowy parking", Color.Transparent));
             fields.Add(new CityField(22, "Rotterdam", Color.Green, 440, 5, 35, 180, 500, 1400, 1750, 2100));
-            fields.Add(new RandomField(23, "?", Color.Transparent));
+            fields.Add(new CityField(23, "?", Color.Transparent, 400, 10, 100, 100, 100, 100, 100, 100));
             fields.Add(new CityField(24, "Bruksela", Color.Green, 440, 5, 35, 180, 500, 1400, 1750, 2100));
             fields.Add(new CityField(25, "Amsterdam", Color.Green, 480, 5, 40, 200, 600, 1500, 1850, 2200));
-            fields.Add(new RandomField(26, "Koleje Północne", Color.Transparent));
+            fields.Add(new CityField(26, "Koleje Północne", Color.Transparent, 400, 10, 100, 100, 100, 100, 100, 100));
             fields.Add(new CityField(27, "Malmo", Color.Purple, 520, 6, 15, 220, 660, 1600, 1950, 2300));
             fields.Add(new CityField(28, "Goteborg", Color.Purple, 520, 6, 15, 220, 660, 1600, 1950, 2300));
             //fields.Add(TODO: wodociągi id 29));
@@ -406,7 +450,7 @@ namespace Monopoly
             fields.Add(new CityField(33, "Kolonia", Color.SaddleBrown, 600, 7, 55, 260, 780, 1900, 2200, 2550));
             fields.Add(new RandomField(34, "?", Color.Transparent));
             fields.Add(new CityField(35, "Bonn", Color.SaddleBrown, 640, 7, 60, 300, 900, 2000, 2400, 2800));
-            fields.Add(new RandomField(36, "Koleje Wschodnie", Color.Transparent));
+            fields.Add(new CityField(36, "Koleje Wschodnie", Color.Transparent, 400, 10, 100, 100, 100, 100, 100, 100));
             fields.Add(new RandomField(37, "?", Color.Transparent));
             fields.Add(new CityField(38, "Insbruck", Color.Black, 700, 8, 70, 350, 1000, 2200, 2600, 3000));
             fields.Add(new PaymentField(39, "Podatek od wzbogacenia", Color.Transparent, 200));
@@ -416,16 +460,93 @@ namespace Monopoly
 
         private void showCard()
         {
-                //var cardInfo = new CardInfo(2, "Saloniki", Color.Yellow, 120);
-                var cardInfo = new CardInfo(fields.ElementAt(infoIndex-1));
+            //var cardInfo = new CardInfo(2, "Saloniki", Color.Yellow, 120);
+            var cardInfo = new CardInfo(fields.ElementAt(infoIndex - 1), CurrentPlayer, fields, players, infoIndex);
 
-                cardInfo.Show();
+            cardInfo.Show();
 
+        }
+
+        //move sequence
+
+        public void playerPositionUpdate()
+        {
+            for (int i = 0; i < playerPosition.Count / 4; i++)
+            {
+                playerPosition.ElementAt(i).BackColor = Color.Transparent;
+
+                for (int j = 0; j < players.Count; j++)
+                {
+                    if (players.ElementAt(j).Location - 1 == i)
+                    {
+                        switch (players.ElementAt(j).Id)
+                        {
+                            case 1:
+                                playerPosition.ElementAt(i).BackColor = Color.Yellow;
+                                break;
+                            case 2:
+                                playerPosition.ElementAt(i + 40).BackColor = Color.Green;
+                                break;
+                            case 3:
+                                playerPosition.ElementAt(i + 80).BackColor = Color.Red;
+                                break;
+                            case 4:
+                                playerPosition.ElementAt(i + 120).BackColor = Color.Blue;
+                                break;
+                        }
+                    }
+                }
+
+            }
+
+
+
+        }
+
+        public void changePlayer()
+        {
+            if (CurrentPlayer != 4)
+                CurrentPlayer++;
+            else
+                CurrentPlayer = 1;
+            label41.Text = players.ElementAt(CurrentPlayer - 1).Name;
+            label42.Text = "Pieniądze: "+ players.ElementAt(CurrentPlayer - 1).Money;
+
+        }
+        public void moveSequence()
+        {
+            // while (true)
+            // {
+
+
+            if (players.ElementAt(CurrentPlayer - 1).InPrison != 1)
+            {
+                var diceRoll = new DiceRoll();
+                PlayerActions action = new PlayerActions(diceRoll, ref players, ref playerPosition, ref fields, CurrentPlayer);
+                //action.Closed += (s,e) => { PlayerActions action2 = new PlayerActions(diceRoll); }
+                action.Show();
+                action.FormClosed += (s, e) => playerPositionUpdate();
+
+            }
+
+
+
+            // }
         }
 
         private void button41_Click(object sender, EventArgs e)
         {
             initializeMap(sender, e);
+            changePlayer();
+            moveSequence();
+            button41.Visible = false;
+            button42.Visible = true;
+
+        }
+        private void button42_Click(object sender, EventArgs e)
+        {
+            changePlayer();
+            moveSequence();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -666,6 +787,7 @@ namespace Monopoly
             infoIndex = 40;
             showCard();
         }
+
 
 
 
